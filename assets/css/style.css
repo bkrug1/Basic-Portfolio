@@ -1,1 +1,132 @@
-css
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }  
+  header {}
+
+
+    h1{font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;}
+    /* title */
+    h2{font-family: 'Georgia', Times, Times New Roman, serif;
+        font-size: 20px;
+        color: #4aaaa5}
+    /* name in the right hand nav bar */
+    h3{font-family: 'Georgia', Times, Times New Roman, serif;
+        font-weight: bold;
+        float: left;
+        background: #ffffff;
+        }
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4aaaa5;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #cccccc;
+}
+.container1 {
+    position: relative;
+    text-align: center;
+    color: white;}
+.centered {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #4aaaa5;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left:3%;
+        padding-right:3%;}
+column1{float: left;}
+column2{float: right;}
+  section {
+  }
+  #audio{visibility: hidden; }
+  #left {
+  }
+  
+  #middle {
+  }
+  
+  #right {
+  }
+  
+  #full {
+  }
+  
+  #division {
+  }
+  
+  aside {
+  }
+  
+  footer {
+  }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+/* two columns to flot next to each other on contact popout */
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+  }*
+  
